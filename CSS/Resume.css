@@ -390,34 +390,30 @@ footer p a {
         right: 20px;
         top: 10px;
     }
-    body{
-        margin: 0;
+
+    body {
+        margin: 10px;
         padding: 0;
         box-sizing: border-box;
-    }
-
-    #h_left {
-        width: 100%;
-        margin: 3px;
     }
 
     #sec1 {
         display: flex;
         flex-direction: column;
-        width: 100%;
     }
 
     #sec1 p {
         width: 100%;
     }
 
-    #sec1 h2,
-    h2 {
-        margin-left: 0px;
+    #sec1 h2 {
+        margin: 30px;
     }
 
     #sec1 #gif {
-        width: 100%;
+        width: 400px;
+        margin: 0;
+        
     }
 
     .nm {
@@ -433,6 +429,11 @@ footer p a {
         flex-direction: column-reverse;
     }
 
+    #sec3 .block {
+        width: 100%;
+        height: auto;
+    }
+
     #ddd {
         display: flex;
         flex-direction: column-reverse;
@@ -444,5 +445,12 @@ footer p a {
         width: 100%;
     }
 
+    #sec4 .sec4block {
+        width: 100%;
+    }
+
+    #footer {
+        width: 100%;
+    }
 
 }
