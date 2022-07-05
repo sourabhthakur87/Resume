@@ -411,7 +411,7 @@ footer p a {
     }
 
     #sec1 #gif {
-        width: 400px;
+        width: 100%;
         margin: 0;
         
     }
@@ -446,6 +446,9 @@ footer p a {
     }
 
     #sec4 .sec4block {
+        width: 100%;
+    }
+    #sec4 .sec4block img {
         width: 100%;
     }
 
