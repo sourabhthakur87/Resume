@@ -26,6 +26,7 @@ header {
 .showbtn {
     float: right;
 }
+
 #chk {
     position: absolute;
     visibility: hidden;
@@ -130,12 +131,13 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-evenly;
 }
-#image a:hover{
+
+#image a:hover {
     transform: scale(1.1);
     transition: 1s;
 }
 
-.fa-envelope{
+.fa-envelope {
     font-size: 60px
 }
 
@@ -144,6 +146,7 @@ nav ul li a:hover {
     margin-top: 20px;
     font-size: 50px;
 }
+
 .hed {
     margin: 80px;
     text-align: center;
@@ -152,7 +155,7 @@ nav ul li a:hover {
 }
 
 #sec2 #img1 {
-    
+
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
@@ -181,11 +184,13 @@ nav ul li a:hover {
     width: 80px;
     height: 80px;
 }
-#sec3 #blk{
+
+#sec3 #blk {
     display: flex;
     justify-content: space-evenly;
 }
-#sec3 .block{
+
+#sec3 .block {
     width: 500px;
     height: 550px;
     background-color: #181818;
@@ -194,79 +199,88 @@ nav ul li a:hover {
     margin-bottom: 60px;
     box-shadow: 8px 8px 8px gray;
 }
-.block p{
+
+.block p {
     margin: 30px;
     text-align: center;
     font-size: 25px;
     font-weight: bolder;
 }
 
-.block h3{
+.block h3 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 30px;
 }
-#sec3 .blockimg{
+
+#sec3 .blockimg {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
 }
 
-#sec3 .blockimg img{
-width: 70px;
-height: 70px;
+#sec3 .blockimg img {
+    width: 70px;
+    height: 70px;
 }
-#ddd{
+
+#ddd {
     display: flex;
     justify-content: center;
 }
 
-#sec4{
+#sec4 {
     display: flex;
     justify-content: space-evenly;
 }
-#sec4 .sec4block{
+
+#sec4 .sec4block {
     width: 500px;
     height: 550px;
-    background-color:black;
+    background-color: black;
     border-radius: 10px;
     box-shadow: 0 0 5px gray;
-    
+
 
     margin-bottom: 50px;
 }
 
-.sec4block{
+.sec4block {
     text-align: center;
 }
-.sec4block img{
+
+.sec4block img {
     margin-top: 10px;
     width: 370px;
     height: 270px;
     border-radius: 10%;
 }
-#sec4 #code{
+
+#sec4 #code {
     margin-top: 20px;
     font-weight: bold;
     font-size: 25px;
     color: red;
 }
-#sec4 #text{
+
+#sec4 #text {
     margin-left: 10px;
     text-align: left;
     color: white;
 }
 
-.link{
+.link {
     margin-left: 10px;
     margin-top: 20px;
     text-align: left;
 }
-#l{
+
+#l {
     font-weight: bold;
     color: red;
 }
-#sec4 a{
+
+#sec4 a {
     color: white;
 }
 
@@ -278,21 +292,27 @@ height: 70px;
 }
 
 
-footer #icon{
+footer #icon {
     display: flex;
     justify-content: center;
 }
-.fa-instagram{
-    color: #E1306C;margin: 20px;
+
+.fa-instagram {
+    color: #E1306C;
+    margin: 20px;
     font-size: 50px;
 }
-.fa-twitter{
+
+.fa-twitter {
     color: white;
-    font-size: 50px;margin: 20px;
+    font-size: 50px;
+    margin: 20px;
 }
-.fa-youtube-play{
+
+.fa-youtube-play {
     color: #FF0000;
-    font-size: 50px;margin: 20px;
+    font-size: 50px;
+    margin: 20px;
 }
 
 #tele {
@@ -305,24 +325,25 @@ footer #icon{
 }
 
 @keyframes bouncing {
-    0%{
+    0% {
         bottom: 0;
-        box-shadow:0 0 5px rgba(239, 232, 232, 0.5);
+        box-shadow: 0 0 5px rgba(239, 232, 232, 0.5);
     }
 
-    100%{
+    100% {
         bottom: 50px;
         box-shadow: 0 50px 50px rgba(230, 220, 220, 0.1);
     }
 }
 
-footer p{
+footer p {
     text-align: center;
     font-size: 20px;
     color: white;
     margin-bottom: 30px;
 }
-footer p a{
+
+footer p a {
     color: white;
 }
 
@@ -369,10 +390,17 @@ footer p a{
         right: 20px;
         top: 10px;
     }
-#h_left{
-    width: 100%;
-    margin: 3px;
-}
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #h_left {
+        width: 100%;
+        margin: 3px;
+    }
+
     #sec1 {
         display: flex;
         flex-direction: column;
